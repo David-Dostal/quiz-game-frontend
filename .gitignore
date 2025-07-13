@@ -205,3 +205,27 @@ cython_debug/
 marimo/_static/
 marimo/_lsp/
 __marimo__/
+
+# node modules
+node_modules/
+
+# build output
+dist/
+
+# local env files
+.env*
+!.env.example
+
+# Logs
+*.log
+
+# macOS system
+.DS_Store
+
+# Cypress
+cypress/screenshots/
+cypress/videos/
+
+# IDEs
+.vscode/
+.idea/
